@@ -48,4 +48,4 @@ Code: Coming soon
 
 ## 3. Citation
 
-If you find this repo useful in your research, please citing our work:
+If you find this repo useful in your research, please cite our work:
