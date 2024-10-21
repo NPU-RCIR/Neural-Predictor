@@ -1,0 +1,1 @@
+python train.py --experiment evaluation --epoch 4000 --lifting_dim 24
