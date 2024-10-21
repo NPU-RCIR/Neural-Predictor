@@ -159,20 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# data_set folder
-data/
-
-# trained model files
-dump/
-
 c_generated_code/
 
-*.npy
-*.bag
-*.xlsx
-
-test*
-
-validation*
-
-sequence_train*
