@@ -22,11 +22,11 @@ This repo includes the code of two parts: **Numerical Evaluation** and **Physica
 
 * Processing BEM data
   
-  The dataset for training and testing in this work is adopted from BEM dataset. For sake of convenience, we provided BEM daset in the `data` folder. Navigate to the `data/BEM` folder, run `python process_data.py` , then some figures and files   will appear in the `data/BEM` folder
+  The dataset for training and testing in this work is adopted from BEM dataset. For sake of convenience, we provided BEM dataset in the `data` folder. Navigate to the `data/BEM` folder, run `python process_data.py` , then some figures and files will appear in the `data/BEM` folder
 
 * Training LLS
   
-  Run `bash scripts/train.sh` and this would take a couple minutes (The training time on i9-12900H CPU was around 8 min, and training time on a RTX 3060 laptop GPU was around 5 min). After training, the trained LLS will be located in the `dump/evaluation` folder.  
+  Run `bash scripts/train.sh` and this will take a couple minutes (The training time on i9-12900H CPU was around 8 min, and training time on a RTX 3060 laptop GPU was around 5 min). After training, the trained LLS will be located in the `dump/evaluation` folder.  
 
 * Evaluation Neural Predictor
   
