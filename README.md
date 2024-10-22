@@ -49,3 +49,13 @@ Code: Coming soon
 ## 3. Citation
 
 If you find this repo useful in your research, please cite our work:
+
+```context
+@misc{jin2024neuralpredictorflightcontrol,
+      title={Neural Predictor for Flight Control with Payload}, 
+      author={Ao Jin and Chenhao Li and Qinyi Wang and Ya Liu and Panfeng Huang and Fan Zhang},
+      year={2024},
+      eprint={2410.15946},
+      url={https://arxiv.org/abs/2410.15946}, 
+}
+```
