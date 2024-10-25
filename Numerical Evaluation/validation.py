@@ -17,7 +17,6 @@ import matplotlib.font_manager as fm
 from matplotlib import cm
 
 current_folder = os.getcwd()
-data_folder = os.path.join(current_folder,'data','payload')
 log_folder_prefix = os.path.join(current_folder,'dump')
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

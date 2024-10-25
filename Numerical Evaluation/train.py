@@ -22,11 +22,9 @@ from config import gen_args
 current_folder = os.getcwd()
 data_folder = os.path.join(current_folder,'data')
 log_folder = os.path.join(current_folder,'dump')
-
-payload_folder = os.path.join(data_folder,'payload')
 bem_folder = os.path.join(data_folder,'BEM')
 
-# set random seed value for reproducing the results presented in the paprt
+# set random seed value for reproducing the results presented in the paper
 seed_value = 723054704  
 np.random.seed(seed_value)
 random.seed(seed_value)
