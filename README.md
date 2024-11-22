@@ -30,11 +30,11 @@ This repo includes the code of two parts: **Numerical Evaluation** and **Physica
   
   Run `bash scripts/train.sh` and this will take a couple minutes (The training time on i9-12900H CPU was around 8 min, and training time on a RTX 3060 laptop GPU was around 5 min). After training, the trained LLS will be located in the `dump/evaluation` folder.  
 
-* Evaluation Neural Predictor
+* Evaluating Neural Predictor
   
   Run `bash scripts/evaluation.sh`. The validation results on 13 unseen trajectories will be located in `dump/evaluation/test`. In each trajectory folder, there are two figures that show the prediction results of Neural Predictor. **In addition, the RMSE results on 13 unseen trajectories are shown in `dump/evaluation/rmse_result.csv`**, which corresponds the results of Table I in the paper.
 
-* Plot
+* Plotting
   
   Navigate to the `plot` folder. The `BEM_Comparasion` subfolder corresponds the result of Fig. 2 presented in paper. The `Sample_Efficiency` subfolder corresponds the result of Fig. 3 presented in paper.
 
@@ -44,6 +44,7 @@ We evaluate the Neural Predictor in the real-world experiments. The setup for re
 
 <div align="center">
     <img src="assets/experiment_setup_1.png" width="70%">
+
 </div>
 
 Code: Coming soon
