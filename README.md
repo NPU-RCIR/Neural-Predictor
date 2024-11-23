@@ -22,6 +22,8 @@ This repo includes the code of two parts: **Numerical Evaluation** and **Physica
 
 ### 2.1 Numerical Evaluation
 
+We provided pretrained models for evaluation. Run `bash scripts/evaluation.sh` to reproduce the results that presented in the paper. **In addition, the RMSE results on 13 unseen trajectories are shown in `dump/evaluation/rmse_result.csv`**, which corresponds the results of Table I in the paper. If you want to train your own LLS, please follow the instructions below.
+
 * Processing BEM data
   
   The dataset for training and testing in this work is adopted from BEM dataset. For sake of convenience, we provided BEM dataset in the `data` folder. Navigate to the `data/BEM` folder, run `python process_data.py` , then some figures and files will appear in the `data/BEM` folder
@@ -32,7 +34,7 @@ This repo includes the code of two parts: **Numerical Evaluation** and **Physica
 
 * Evaluating Neural Predictor
   
-  Run `bash scripts/evaluation.sh`. The validation results on 13 unseen trajectories will be located in `dump/evaluation/test`. In each trajectory folder, there are two figures that show the prediction results of Neural Predictor. **In addition, the RMSE results on 13 unseen trajectories are shown in `dump/evaluation/rmse_result.csv`**, which corresponds the results of Table I in the paper.
+  Run `bash scripts/evaluation.sh`. The validation results on 13 unseen trajectories will be located in `dump/evaluation/test`. In each trajectory folder, there are two figures that show the prediction results of Neural Predictor. 
 
 * Plotting
   
