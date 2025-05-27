@@ -13,7 +13,7 @@ Our paper: [Neural Predictor for Flight Control with Payload](https://arxiv.org/
 Before running the code, install the dependency packages in a virtual python env by executing the following command:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 2. Running the Code
@@ -57,10 +57,12 @@ If you find this repo useful in your research, please cite our work:
 
 ```context
 @misc{jin2024neuralpredictorflightcontrol,
-      title={Neural Predictor for Flight Control with Payload}, 
-      author={Ao Jin and Chenhao Li and Qinyi Wang and Ya Liu and Panfeng Huang and Fan Zhang},
-      year={2024},
-      eprint={2410.15946},
-      url={https://arxiv.org/abs/2410.15946}, 
-}
+  title={Neural Predictor for Flight Control With Payload}, 
+  author={Jin, Ao and Li, Chenhao and Wang, Qinyi and Liu, Ya and Huang, Panfeng and Zhang, Fan},
+  journal={IEEE Robotics and Automation Letters}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2025.3573624}}
 ```
