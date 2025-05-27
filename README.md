@@ -6,7 +6,7 @@ The ***Neural Predictor***  is a learning-based scheme to capture force/torque c
 
 ![171c09bd62e2332fdc71e256e9f7ba4a458fcfd4.png](assets/f36a3fbf42e57eca413beaf1b7a22f793384593c.png)
 
-Our paper: [Neural Predictor for Flight Control with Payload](https://arxiv.org/abs/2410.15946)
+Our paper: [Neural Predictor for Flight Control with Payload](https://ieeexplore.ieee.org/document/11015273/)
 
 ## 1. Getting Started
 
